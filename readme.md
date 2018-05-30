@@ -8,7 +8,7 @@ This kit uses the normalize css reset incorparted into the _normalize.scss file.
 
 To install and run from the command line (don't forget to navigate to the desired directory):
 
-    git clone https://github.com/chrismgonzalez/starterkit.git
+    git clone https://github.com/chrismgonzalez/Essence.git
 
     npm install
 
@@ -16,4 +16,4 @@ To install and run from the command line (don't forget to navigate to the desire
 
 I will be updating this set of files as its uses grow. I hope to add functionality for more gulp files and workflows.
 
-If you would like to become an open source contributor to this starterkit, please message me.
+If you would like to become an open source contributor to Essence, please message me.
