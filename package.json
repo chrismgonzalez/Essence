@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "git-repository": "https://github.com/chrismgonzalez/portfolio.git",
+  "git-repository": "https://github.com/chrismgonzalez/Essence.git",
   "author": "Chris Gonzalez",
   "license": "MIT",
   "devDependencies": {
