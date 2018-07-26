@@ -1,11 +1,11 @@
 'use strict';
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var browserSync = require('browser-sync').create();
-var autoprefixer = require('gulp-autoprefixer');
-var cssnano = require('gulp-cssnano');
-var sourcemaps = require('gulp-sourcemaps');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const browserSync = require('browser-sync').create();
+const autoprefixer = require('gulp-autoprefixer');
+const cssnano = require('gulp-cssnano');
+const sourcemaps = require('gulp-sourcemaps');
 
 
 
@@ -30,9 +30,9 @@ gulp.task('browserSync', function(){
     browserSync.init({
         server: {
             baseDir: './'
-        
+
         },
-        
+
        target: "localhost:8080", // can be [virtual host, sub-directory, localhost with port]
         ws: true // enables websockets
     });
