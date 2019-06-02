@@ -14,6 +14,6 @@ To install and run from the command line (don't forget to navigate to the desire
 
     gulp
 
-I will be updating this set of files as its uses grow. I hope to add functionality for more gulp files and workflows.
+This project is in active development.  I will be updating this set of files as its uses grow. I hope to add functionality for more gulp files and workflows.
 
 If you would like to become an open source contributor to Essence, please message me.
