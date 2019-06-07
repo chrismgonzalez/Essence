@@ -7,30 +7,27 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/chrismgonzalez/Essence.git",
-
-  "dependencies": {
-    "node-sass": "^4.12.0"
-  },
-  "scripts": {
-    "sass": "node-sass ./src/scss/ -o ./dist/css/ -w -r --source-map-embed --source-map-contents --output-style expanded | node-sass ./src/scss/main.scss ./dist/css/main.min.css -w --output-style compressed",
-    "sass:docs": "node-sass -w -r ./src/scss/ -o ./docs/css/"
-  },
-
-  "keywords": [
-    "sass",
-    "setup",
-    "boilerplate",
-    "framework",
-    "ui",
-    "css framework",
-    "front end",
-    "design"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/chrismgonzalez/essence/issues"
-  },
-
-  "private": false
-}
+    "dependencies": {
+      "node-sass": "^4.12.0"
+    },
+    "scripts": {
+      "sass": "node-sass ./src/scss/ -o ./dist/css/ -w -r --source-map-embed --source-map-contents --output-style expanded | node-sass ./src/scss/main.scss ./dist/css/main.min.css -w --output-style compressed",
+      "sass:docs": "node-sass -w -r ./src/scss/ -o ./docs/css/"
+    },
+    "keywords": [
+      "sass",
+      "setup",
+      "boilerplate",
+      "framework",
+      "ui",
+      "css framework",
+      "front end",
+      "design"
+    ],
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chrismgonzalez/essence/issues"
+    },
+    "private": false
+  }
 }
