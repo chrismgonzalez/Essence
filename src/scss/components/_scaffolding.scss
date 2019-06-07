@@ -15,7 +15,7 @@ html {
 
 // Body base
 body {
-  color: $font-color;
+  color: $font-color-dark;
   background: $background;
   font-size: $body-font-size;
 }
@@ -44,10 +44,8 @@ h3,
 h4,
 h5 {
   margin: $margins 0;
-  font-weight: $heading-font-weight;
-  font-family: $heading-font-family;
-  line-height: $heading-line-height;
-  color: $heading-font-color;
+  font-weight: bold;
+
 
   &:not(:first-child) {
     margin: 1.5rem 0;

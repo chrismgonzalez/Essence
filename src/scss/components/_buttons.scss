@@ -28,7 +28,7 @@
 
 %buttons-hover {
   border: $button-border-width $button-border-style darken($button-border-color, 10%);
-  background: $button-background-hover;
+  background: $button-hover;
   color: $button-color;
   text-decoration: none;
 }

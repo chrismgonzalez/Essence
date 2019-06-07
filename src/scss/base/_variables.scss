@@ -18,7 +18,7 @@
 
 /*Colors*/ //default colors to get you started - change them based on your design and branding
 
-$background: #f2f2f2
+$background: #f2f2f2;
 $primary-color: #0366EE;
 $secondary-color: #FBA100;
 $accent-color: #cdcdcd;
@@ -38,13 +38,13 @@ $body-font-size: 1rem;
 $font-style: normal;
 $font-variant: normal;
 $font-weight: normal;
-$font-color-light:#f2f2f2
-$font-color-dark: #404040
+$font-color-light:#f2f2f2;
+$font-color-dark: #404040;
 $font-family: 'Roboto', sans-serif;
-$line-height: 1.6
+$line-height: 1.6;
 
 // Headings
-$heading-font-color-light: #f2f2f2 ; //change these colors to fit your design
+$heading-font-color-light: #f2f2f2; //change these colors to fit your design
 $heading-font-color-dark: #404040;
 $heading-font-family: Advent Pro;
 $heading-line-height: 1.2;
@@ -126,7 +126,7 @@ $caption: #ababab;
 
 /* Code */
 
-$code-color: $font-color;
+$code-color: $font-color-light;
 $code-size: 14px;
 $code-family: Menlo, monospace;
 $code-background: transparent;
