@@ -15,9 +15,7 @@ a:focus {
 
 header {
     padding: 50px 0;
-    background:#516f99 url('../img/seamless.png');
-    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 89%, 50% 100%, 0 89%, 0 0);
-    clip-path: polygon(50% 0%, 100% 0, 100% 89%, 50% 100%, 0 89%, 0 0);
+    background:#516f99 url('../img/seamless.png'); no repeat left center / cover;
 }
 
 header h1 {
@@ -33,4 +31,32 @@ header p {
     font-size: 0.75rem;
     line-height: 1.6;
      color: rgba(255, 255, 255, .9);
+}
+
+.setup {
+    margin-bottom: 0;
+    z-index: 1;
+}
+
+.installation {
+    background: white;
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    .setup {
+        background: #fafafa;
+        margin-bottom: 60px;
+    }
+    .installation {
+        padding: 20px;
+        border: 1px solid #efefef;
+        margin-top: -100px;
+        margin-bottom: -100px;
+        z-index: 2;
+    }
+}
+
+.logos {
+    max-width: 150px;
 }
