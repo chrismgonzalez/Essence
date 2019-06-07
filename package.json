@@ -1,20 +1,36 @@
 {
-  "name": "Essence-CSS",
-  "version": "1.0.0",
-  "description": "A simple SASS boiler plate to get you up and running",
+  "name": "Essence",
+  "version": "0.1.0",
+  "author": "Chris Gonzalez <chrismgonzalez.com>",
+  "description": "A lightweight CSS library meant to help non-designers build visually appealing, responsive web apps",
   "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrismgonzalez/Essence.git",
+
+  "dependencies": {
+    "node-sass": "^4.12.0"
   },
-  "git-repository": "https://github.com/chrismgonzalez/Essence.git",
-  "author": "Chris Gonzalez",
+  "scripts": {
+    "sass": "node-sass ./src/scss/ -o ./dist/css/ -w -r --source-map-embed --source-map-contents --output-style expanded | node-sass ./src/scss/main.scss ./dist/css/main.min.css -w --output-style compressed",
+    "sass:docs": "node-sass -w -r ./src/scss/ -o ./docs/css/"
+  },
+
+  "keywords": [
+    "sass",
+    "setup",
+    "boilerplate",
+    "framework",
+    "ui",
+    "css framework",
+    "front end",
+    "design"
+  ],
   "license": "MIT",
-  "devDependencies": {
-    "browser-sync": "^2.24.6",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.1.0",
-    "gulp-cssnano": "^2.1.3",
-    "gulp-sass": "^3.2.1",
-    "gulp-sourcemaps": "^2.6.4"
-  }
+  "bugs": {
+    "url": "https://github.com/chrismgonzalez/essence/issues"
+  },
+
+  "private": false
+}
 }
