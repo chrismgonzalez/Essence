@@ -1,10 +1,9 @@
 # Essence
 
-Essence is a custom tailored, minimally inspired CSS framework that uses SASS and Gulp.  You should be familiar with using the sass file structure.  I have included .scss files for you that follow an atomic design sense of development
+Essence is a custom tailored, minimally inspired CSS framework to help non-designers build visually pleasing, responsive web apps.
 
 Included is an HTML boilerplate courtesy of [Tania Rascia](https://taniarascia.github.io/primitive/).
 
-This kit uses the normalize css reset incorparted into the _normalize.scss file.  Gulp functions have been written to intergrate BrowserSync from your application directory. Uncomment the BrowserSync code in the gulpfile.js to use BrowserSync from a virtual host server.
 
 To install and run from the command line (don't forget to navigate to the desired directory):
 
@@ -12,8 +11,5 @@ To install and run from the command line (don't forget to navigate to the desire
 
     npm install
 
-    gulp
 
-This project is in active development.  I will be updating this set of files as its uses grow. I hope to add functionality for more gulp files and workflows.
-
-If you would like to become an open source contributor to Essence, please message me.
+This project is in active development.  If you would like to become an open source contributor to Essence, please message me.
