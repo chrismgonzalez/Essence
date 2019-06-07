@@ -1,33 +1,33 @@
 {
-  "name": "Essence",
+  "name": "essence",
   "version": "0.1.0",
   "author": "Chris Gonzalez <chrismgonzalez.com>",
   "description": "A lightweight CSS library meant to help non-designers build visually appealing, responsive web apps",
   "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chrismgonzalez/Essence.git",
-    "dependencies": {
-      "node-sass": "^4.12.0"
-    },
-    "scripts": {
-      "sass": "node-sass ./src/scss/ -o ./dist/css/ -w -r --source-map-embed --source-map-contents --output-style expanded | node-sass ./src/scss/main.scss ./dist/css/main.min.css -w --output-style compressed",
-      "sass:docs": "node-sass -w -r ./src/scss/ -o ./docs/css/"
-    },
-    "keywords": [
-      "sass",
-      "setup",
-      "boilerplate",
-      "framework",
-      "ui",
-      "css framework",
-      "front end",
-      "design"
-    ],
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/chrismgonzalez/essence/issues"
-    },
-    "private": false
-  }
+    "url": "git+https://github.com/chrismgonzalez/Essence.git"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "sass": "node-sass ./src/scss/ -o ./dist/css/ -w -r --source-map-embed --source-map-contents --output-style expanded | node-sass ./src/scss/main.scss ./dist/css/main.min.css -w --output-style compressed",
+    "sass:docs": "node-sass -w -r ./src/scss/ -o ./docs/css/"
+  },
+  "keywords": [
+    "sass",
+    "setup",
+    "boilerplate",
+    "framework",
+    "ui",
+    "css framework",
+    "front end",
+    "design"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrismgonzalez/Essence/issues"
+  },
+  "private": false
 }
